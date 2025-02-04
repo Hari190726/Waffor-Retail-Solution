@@ -1,0 +1,238 @@
+
+:root {
+    --primary-color: #20B2AA;
+    --bg-dark: #1A202C;
+    --text-muted: #718096;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.header-section {
+    background-color: var(--bg-dark);
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+.service-category {
+    padding: 10px 15px;
+    color: var(--text-muted);
+    text-decoration: none;
+    display: block;
+    border-radius: 6px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.service-category.active {
+    color: var(--primary-color);
+    background-color: rgba(32, 178, 170, 0.1);
+}
+
+.service-item {
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background: white;
+}
+
+.service-checkbox {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #cbd5e0;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+}
+
+.service-checkbox.checked {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    font-weight: bold;
+}
+
+.service-checkbox.checked::after {
+    content: '✓';
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.cart-section {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    border: 1px solid #e2e8f0;
+    font-weight: bold;
+}
+
+.book-now-btn {
+    background-color: var(--primary-color);
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    color: white;
+    width: 100%;
+    font-weight: bold;
+}
+
+.book-now-btn:hover {
+    background-color: #1a9690;
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        display: none;
+        font-weight: bold;
+    }
+    
+    .cart-section {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        border-radius: 12px 12px 0 0;
+        box-shadow: 0 -4px 6px -1px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+        font-weight: bold;
+    }
+
+    .service-list {
+        margin-bottom: 150px;
+        font-weight: bold;
+    }
+}
+
+.time-slot {
+    border: 1px solid #dee2e6;
+    border-radius: 20px;
+    padding: 8px 16px;
+    margin: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-weight: bold;
+}
+.time-slot:hover {
+    background-color: #e9ecef;
+}
+.time-slot.active {
+    background-color: #20c997;
+    color: white;
+    border-color: #20c997;
+    font-weight: bold;
+}
+.staff-option {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #dee2e6;
+    margin: 0 10px;
+}
+.staff-option.active {
+    border-color: #20c997;
+    background-color: #20c997;
+    color: white;
+}
+.calendar-day {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.calendar-day.active {
+    background-color: #20c997;
+    color: white;
+}
+.modal-header {
+    border-bottom: none;
+}
+.form-control:focus {
+    box-shadow: none;
+    border-color: #0d6efd;
+}
+.payment-option {
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.payment-option.selected {
+    border-color: #0d6efd;
+    background-color: #f8f9fa;
+}
+.payment-option input[type="radio"] {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.success-icon {
+    width: 64px;
+    height: 64px;
+    background-color: #20c997;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem;
+    font-weight: bold;
+}
+
+.success-icon svg {
+    width: 32px;
+    height: 32px;
+    color: white;
+    font-weight: bold;
+}
+
+.booking-details {
+    max-width: 600px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.amount-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.discount {
+    color: #ff6b6b;
+    font-weight: bold;
+}
+
+.consent-btn {
+    background-color: #20c997;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    color: white;
+    width: 100%;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.book-another {
+    color: #20c997;
+    text-decoration: none;
+    font-weight: bold;
+}
