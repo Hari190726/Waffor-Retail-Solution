@@ -62,5 +62,3 @@
 
 ### 🔥 **Summary:**  
 Your project is a **fully functional salon booking system** with service selection, staff selection, scheduling, cart management, and payment integration. It’s built using **HTML, Bootstrap (CSS), JavaScript (for interactivity), and responsive design**.
-
-Do you need an explanation of any specific part? 😊
