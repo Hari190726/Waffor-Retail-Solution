@@ -1,5 +1,49 @@
 # Waffor-Retail-Solution
 
+🔗 Live Demo: Waffor Retail Solution
+
+Now, update your README.md file in GitHub and replace the live demo link like this:
+
+# 🏪 Waffor Retail Solution - Natural Beauty Salon Booking System  
+
+## 📌 Overview  
+This is a **responsive salon booking system** built for **Natural Beauty Salon, Spa, and Wellness Center**.  
+Users can select services, choose staff, pick a date and time, and complete the booking process seamlessly.  
+
+## 🔥 Features  
+✅ **Service Selection** – Users can select multiple salon services.  
+✅ **Cart & Booking System** – Selected services are added to a dynamic cart.  
+✅ **Staff, Date & Time Selection** – Users can choose staff and schedule appointments.  
+✅ **Interactive UI** – JavaScript updates the UI dynamically.  
+✅ **Responsive Design** – Works perfectly on desktop & mobile devices.  
+
+## 🛠️ Technologies Used  
+- **Frontend:** HTML, CSS, JavaScript, Bootstrap  
+- **Styling:** Custom CSS & Bootstrap for responsiveness  
+- **Interactivity:** JavaScript for dynamic service selection & cart updates  
+
+## 🚀 Live Demo  
+🔗 **[View Project Here](https://waffor-60037150894.development.catalystserverless.in/app/index.html)**  
+
+## 📸 Screenshots  
+![Screenshot1](Your Image Link Here)  
+*(Upload screenshots in the repository & update links here.)*  
+
+## 🏗️ How to Run the Project Locally  
+1. Clone the repository:  
+   ```sh
+   git clone https://github.com/Hari190726/Waffor-Retail-Solution.git
+📩 Contact
+For any queries, reach out via hariprakash.naukri@gmail.com.
+---
+
+### **🔹 Next Steps:**
+✔ **Upload screenshots** to the GitHub repo & add links.  
+✔ **Share your project** on LinkedIn with this **GitHub + Live Demo** link.  
+✔ **Highlight this in your resume & interviews**!  
+
+🔥 **Need help with anything else?** 🚀
+
 
 ---
 
